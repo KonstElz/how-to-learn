@@ -1,8 +1,3 @@
-h1, p {
-  margin: 0;
-  padding: 0;
- }
-
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -24,6 +19,7 @@ h1, p {
     background-color: #f2f2f2;
     /* выше установили ограничения для секции */
 }
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
@@ -48,19 +44,17 @@ h1, p {
 }
 
 .header__title {
-    font-size: 102px;
-    font-weight: bold;
-    line-height: 96px;
     width: 730px;
     padding-left: 64px;
     display: flex;
     align-self: center;
 }
 
-.title__h1 {
+.header__title h1 {
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
+    margin: 0;
     z-index: 2;
 }
 
@@ -73,10 +67,11 @@ h1, p {
     z-index: 2;
 }
 
-.header__subtitle-text {
+.header__subtitle p {
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+    margin: 0;
 }
 
 .header__subtitle_link {
@@ -102,6 +97,7 @@ h1, p {
     bottom: 0;
     z-index: 1;
 }
+
 
 /*.content {}*/
 
@@ -135,10 +131,11 @@ h1, p {
     justify-content: space-between;
 }
 
-.two-columns__p {
+.two-columns__main-text p {
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    margin: 0;
 }
 
 .span-accent {
@@ -164,12 +161,12 @@ h1, p {
     padding-bottom: 20px;
 }
 
-.section-title__heading {
-    width: 60%;
+.digits__section-title h2 {
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 .digits__section-subtitle {
@@ -181,7 +178,7 @@ h1, p {
     position: relative;
 }
 
-.section-subtitle__heading {
+.digits__section-subtitle p {
     width: 60%;
     line-height: 34px;
     font-size: 24px;
@@ -208,17 +205,19 @@ h1, p {
     padding-top: 60px;
 }
 
-.table__heading_p {
+.table__heading h3 {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
+    margin: 0;
 }
 
-.table__text_p {
+.table__text p {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
     padding-top: 20px;
+    margin: 0;
 }
 
 .feynman {
@@ -241,11 +240,12 @@ h1, p {
     margin: auto;
 }
 
-.title__text {
+.feynman__title h2 {
     text-align: center;
     line-height: 115px;
     font-size: 120px;
     font-weight: bold;
+    margin: 0;
 }
 
 .feynman__subtitle {
@@ -256,12 +256,13 @@ h1, p {
     margin: auto;
 }
 
-.subtitle__text {
+.feynman__subtitle p {
     text-align: center;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
     padding-top: 70px;
+    margin: 0;
 }
 
 .feynman__link {
@@ -270,13 +271,14 @@ h1, p {
     right: 48px;
 }
 
-.link__a {
+.feynman__link a {
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
     color: #2f80ed;
     text-decoration: none;
 }
+
 
 /* и элемента с модификатором вида ключ-значение */
 
@@ -285,7 +287,7 @@ h1, p {
     background-color: #1f1f1f;
     background-image: url(/images/kaufman-triangle.svg);
     background-size: 877px;
-    background-position:  top 0 right -210px;
+    background-position: top 0 right -210px;
     background-repeat: no-repeat;
 }
 
@@ -297,13 +299,14 @@ h1, p {
     justify-content: center;
     margin: auto;
     padding-top: 90px;
-
 }
-.section-title__heading_theme_dark {
+
+.section-title__theme_dark h3 {
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 .section-subtitle__theme_dark {
@@ -316,11 +319,12 @@ h1, p {
     padding-top: 20px;
 }
 
-.section-subtitle__heading_theme_dark {
+.section-subtitle__theme_dark p {
     line-height: 1.15;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
+    margin: 0;
 }
 
 .table__theme_dark {
@@ -347,17 +351,19 @@ h1, p {
     padding-top: 80px;
 }
 
-.table__heading_num_theme_dark {
+.table__heading_theme_dark p {
     line-height: 1.15;
     font-size: 24px;
     font-weight: normal;
     text-align: left;
+    margin: 0;
 }
 
-.table__text_task_theme_dark {
+.table__text_theme_dark p {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin: 0;
 }
 
 .footer {
@@ -387,6 +393,19 @@ h1, p {
     justify-content: space-between;
 }
 
+.footer__author {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.footer__author p {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+}
+
 .column__content_info {
     display: flex;
     flex-direction: column;
@@ -397,31 +416,23 @@ h1, p {
     flex-direction: column;
 }
 
-.autor_name {
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    color: white;
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
-
-.column-heading__text {
+.footer__column-heading p {
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
     color: white;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .footer__column-link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    color: white;   
+    color: white;
 }
 
-.footer__column-link_text {
+.footer__column-link a {
     color: white;
     text-decoration: none;
     padding-right: 10px;
