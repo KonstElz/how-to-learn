@@ -206,7 +206,7 @@ p {
     position: relative;
     height: 790px;
     background-color: #f2f2f2;
-    background-image: url(/images/feynman.png);
+    background-image: url(../images/feynman.png);
     background-size: 867px 637px;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -256,7 +256,7 @@ p {
 .kaufman {
     overflow: hidden;
     background-color: #1f1f1f;
-    background-image: url(/images/kaufman-triangle.svg);
+    background-image: url(../images/kaufman-triangle.svg);
     background-size: 877px;
     background-position: top 0 right -210px;
     background-repeat: no-repeat;
