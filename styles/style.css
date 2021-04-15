@@ -200,13 +200,7 @@
 .feynman__title {
     position: relative;
     max-width: 648px;
-<<<<<<< HEAD
-=======
-    margin: auto;
->>>>>>> f3df7c0a826120aca31edf327b2dc0abd86fb2f8
-    text-align: center;
     line-height: 115px;
-    font-size: 120px;
     font-weight: bold;
     margin: 0;
     margin-left: auto;
@@ -215,10 +209,7 @@
 
 .feynman__subtitle {
     position: relative;
-<<<<<<< HEAD
-=======
     margin: auto;
->>>>>>> f3df7c0a826120aca31edf327b2dc0abd86fb2f8
     text-align: center;
     line-height: 51px;
     font-size: 36px;
