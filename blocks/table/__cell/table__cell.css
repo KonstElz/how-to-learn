@@ -3,4 +3,6 @@
   flex-direction: column;
   width: 250px;
   padding-top: 60px;
+  list-style-type: none;
+  margin: 0;
 }

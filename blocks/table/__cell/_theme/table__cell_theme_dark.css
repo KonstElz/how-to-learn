@@ -5,4 +5,6 @@
   color: white;
   padding-top: 80px;
   z-index: 2;
+  list-style-type: none;
+  margin: 0;
 }
