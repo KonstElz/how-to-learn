@@ -60,9 +60,9 @@
 @import url(../blocks/table/_theme/table_theme_dark.css);
 /*resourse*/
 
-@import url(../blocks/resourses/resourses.css);
-@import url(../blocks/resourses/__logo-zone/resourse__logo-zone.css);
-@import url(../blocks/resourses/__logo/resourse__logo.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 /*khan*/
 
 @import url(../blocks/khan/khan.css);
